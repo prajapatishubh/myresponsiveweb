@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveshare.alwaysFollowHost": true,
+		"liveServer.settings.host": " 192.168.0.121",
+		"workbench.commandPalette.preserveInput": true,
+		"workbench.quickOpen.preserveInput": true,
+		"livePreview.hostIP": " 192.168.0.121",
+		"editor.hover.sticky": true
+	}
+}

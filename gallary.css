@@ -1,0 +1,560 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(242, 238, 238);
+    width: 100%;
+    height: 60px;
+    /* position: fixed; */
+    z-index: 99;
+
+
+}
+
+.navbar {
+    /* background-color: rgb(146, 3, 3); */
+
+    /* margin-top: 5px; */
+    /* color: white; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 20px;
+    background-color: rgb(253, 249, 249);
+    position: fixed;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* display: none; */
+
+}
+
+
+
+.logolap {
+    display: none;
+}
+
+
+.dis {
+    display: none;
+}
+
+
+
+a:hover {
+    color: #C79C60;
+}
+
+i {
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+i:hover {
+    color: #C79C60;
+}
+/* main start  */
+.title{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 150px;
+    text-align: center;
+    padding: 40px;
+        
+}
+.title  h1{
+    color:#C79C60;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+.imggallary {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.imggallary img {
+
+   padding: 10px;
+    
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.imggallary img:hover {
+    transform: scale(1.1);
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.mainfooter {
+    background-color: #F5F5F5;
+    width: 100%;
+}
+
+.footer1 {
+    margin-top: 40px;
+    text-align: center;
+    padding: 40px;
+}
+
+.f2 {
+    margin-top: 30px;
+}
+
+.icon22 {
+    margin-top: 50px;
+    color: orange;
+}
+
+.icon22:hover {
+
+    color: black;
+}
+
+.footer2 {
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.f4 {
+    margin-top: 30px;
+
+}
+
+.f4 h1 {
+    color: #C79C60;
+}
+
+.footer3 {
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.footer3 h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.f5 {
+    margin-top: 40px;
+}
+
+.f6 {
+    margin-top: 40px;
+}
+
+
+
+
+
+@media only screen and (min-width:768px) {
+
+   
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        background-color: white;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        z-index: 99;
+
+
+    }
+
+    .navbar {
+
+        
+        /* color: white; */
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0px 20px;
+        background-color: white;
+        position: fixed;
+
+
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        justify-content: space-evenly;
+        padding: 10px;
+        /* display: none; */
+
+    }
+
+
+
+    .logolap {
+        display: none;
+    }
+
+
+    .dis {
+        display: none;
+    }
+
+
+
+    a:hover {
+        color: #C79C60;
+    }
+
+    i {
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+
+    i:hover {
+        color: #C79C60;
+    }
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #F5F5F5;
+        height: 200px;
+        text-align: center;
+        /* padding: 40px; */
+            
+    }
+    .title  h1{
+        margin-top:70px;
+
+        color:#C79C60;
+        font-weight: bolder;
+        font-size: 40px;
+        
+    }
+    .title h3{
+        margin-top:80px;
+
+        color:#090600;
+        font-weight: 100;
+        font-size: 24px;
+
+    }
+    .imggallary {
+        width: 100%;
+    }
+
+    .imggallary img {
+        padding: 10px;
+        width: 47%;
+        background-size: cover;
+
+    }
+    
+    .mainfooter {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer1 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: center;
+        padding: 40px;
+        text-align: start;
+    }
+
+    .footer1 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f2 {
+        margin-top: 30px;
+    }
+
+    .icon22 {
+        margin-top: 50px;
+        color: orange;
+    }
+
+    .icon22:hover {
+
+        color: black;
+    }
+
+    .footer2 {
+        width: 30%;
+        margin-top: 100px;
+        text-align: center;
+
+    }
+
+    .footer2 img {
+        width: 80%;
+        height: auto;
+
+    }
+
+    .f4 {
+        margin-top: 30px;
+
+    }
+
+    .f4 h1 {
+        color: #C79C60;
+        font-size: 50px;
+    }
+
+    .footer3 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: end;
+
+    }
+
+    .footer3 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f5 {
+        margin-top: 40px;
+    }
+
+    .f6 {
+        margin-top: 40px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:1200px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        background-color: rgb(255, 251, 251);
+        width: 100%;
+        height: 100px;
+        color: black;
+        align-items: center;
+
+    }
+
+    .navbar {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        background-color: white;
+        font-size: 15px;
+        position: fixed;
+        z-index: 2;
+        z-index: 99;
+        top: 0;
+
+    }
+
+    .imgmobile {
+        display: none;
+    }
+
+    #removeicon {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        justify-content: space-evenly;
+        padding: 10px;
+
+        color: black;
+    }
+
+    a:hover {
+        color: #C79C60;
+    }
+
+    .dis {
+        display: block;
+    }
+
+    .logolap {
+        display: flex;
+        margin-left: 150px;
+    }
+
+
+    i {
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #F5F5F5;
+        height: 300px;
+        text-align: center;
+        /* padding: 40px; */
+            
+    }
+    .title  h1{
+        margin-top:140px;
+
+        color:#C79C60;
+        font-weight: bolder;
+        font-size: 40px;
+        
+    }
+    .title h3{
+        margin-top:150px;
+
+        color:#090600;
+        font-weight: 100;
+        font-size: 24px;
+
+    }
+
+    .imggallary {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-size: cover;
+        justify-content: space-evenly;
+    }
+
+    .imggallary img {
+        /* padding: 10px; */
+        width: 33%;
+        /* background-size: cover; */
+
+    }
+    
+    .mainfooter {
+        margin-top: 70px;
+        background-color: #F5F5F5;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer1 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: center;
+        padding: 40px;
+        text-align: start;
+    }
+
+    .footer1 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f2 {
+        margin-top: 30px;
+    }
+
+    .icon22 {
+        margin-top: 50px;
+        color: orange;
+    }
+
+    .icon22:hover {
+
+        color: black;
+    }
+
+    .footer2 {
+        width: 30%;
+        margin-top: 100px;
+        text-align: center;
+
+    }
+
+    .footer2 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .f4 {
+        margin-top: 30px;
+
+    }
+
+    .f4 h1 {
+        color: #C79C60;
+        font-size: 50px;
+    }
+
+    .footer3 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: end;
+
+    }
+
+    .footer3 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f5 {
+        margin-top: 40px;
+    }
+
+    .f6 {
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+}

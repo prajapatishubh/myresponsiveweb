@@ -1,0 +1,2116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+
+
+}
+
+.navbar {
+
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 20px;
+    position: fixed;
+
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* display: none; */
+
+}
+
+.logolap {
+    display: none;
+}
+
+
+.dis {
+    display: none;
+}
+
+a:hover {
+    color: #C79C60;
+}
+
+i {
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+i:hover {
+    color: #C79C60;
+}
+
+/* first section start */
+
+.main {
+    /* margin-top: 45px; */
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url(images/bg-parallax1new.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    place-items: center;
+    /* Short-hand for centering */
+    text-align: center;
+    z-index: -1;
+
+}
+
+.main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    /* 0.5 ka matlab 50% dark effect */
+    z-index: 1;
+
+}
+
+.main>* {
+    position: relative;
+    z-index: 2;
+}
+
+.mainhead {
+
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* h1 and p font stales*/
+    color: white;
+}
+
+.mainhead {
+    padding: 10px;
+    /* h1 and p size*/
+    font-size: 35px;
+}
+
+.h11 {
+    color: rgb(253, 252, 252);
+    font-size: 20px;
+}
+
+/* second section */
+
+.countainer {
+    width: 100%;
+    /* justify-content: center; */
+    justify-items: center;
+    /* display: flex; */
+    padding: 10px;
+
+}
+
+.box {
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+    width: 80%;
+    height: 60px;
+    background-color: #C79C60;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+/* heading 2 */
+
+.mainhead2 {
+    margin-top: 50px;
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* h1 and p font stales*/
+    color: #C79C60;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+.intro {
+    font-size: 25px;
+}
+
+.mainhead3 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    display: flex;
+}
+
+.section2 {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    /* justify-content: center; */
+    justify-items: center;
+    /* z-index: 1; */
+
+}
+
+.img1 {
+    width: 100%;
+    height: 600px;
+    background-color: #fbfbfa;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    /* Shadow effect */
+    border-radius: 10px;
+    /* Optional: thoda smooth look ke liye */
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    padding: 11px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    /* z-index: 2; */
+
+}
+
+p {
+    margin-bottom: 70px;
+}
+
+.button:hover {
+    background-color: #f9f9f9d0;
+}
+
+.button {
+    padding: 20px;
+    color: white;
+    background-color: #C79C60;
+
+}
+
+.img1 img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+
+.section3 {
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* Text ko bright rakhne ke liye */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.section3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg-parallax1new.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(0.6);
+    z-index: -1;
+    /* Background ko peechhe rakhne ke liye */
+}
+
+.heading4 {
+
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    /* h1 and p font stales*/
+    color: #c79c60d0;
+}
+
+h1 {
+    /* padding: 50px; */
+    font-size: 20px;
+}
+
+p {
+    padding: 50px;
+
+
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* section 4 start */
+.notes {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px
+}
+
+.images8 {
+    width: 100%;
+}
+
+.img01 {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-image: url(images/freewifi-560x840.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img01 div {
+    height: 100px;
+    color: white;
+    /* Text color white hi rahega */
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black color with 60% transparency */
+}
+
+.img01 div h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #C79C60;
+}
+
+.img02 {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-image: url(images/n3a_new-560x840.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img02 div {
+    height: 100px;
+    color: white;
+    /* Text color white hi rahega */
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black color with 60% transparency */
+}
+
+.img02 div h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #C79C60;
+}
+
+
+.img03 {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-image: url(images/glr-5-560x840.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img03 div {
+    height: 100px;
+    color: white;
+    /* Text color white hi rahega */
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black color with 60% transparency */
+}
+
+.img03 div h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #C79C60;
+}
+
+.booking {
+    margin-top: 20px;
+    width: 100%;
+    height: 900px;
+    background-image: url(images/booking-parallax.jpg);
+    background-attachment: fixed;
+}
+
+.reservation {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.reservation h1 {
+    color: #C79C60;
+}
+
+.logo1 {
+    text-align: center;
+}
+
+.form1 {
+    margin-left: 17px;
+    padding: 20px;
+    width: 90%;
+    border: 1px solid white;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+input,
+select {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input,
+select {
+    flex: 1;
+    min-width: 200px;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: #C79C60;
+}
+
+.section6 {
+    margin-top: 20px;
+}
+
+.heading1 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.drink {
+    width: 100%;
+    text-align: center;
+}
+
+.drink img {
+    width: 97%;
+}
+
+.timewatch {
+
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(5, 2, 2);
+}
+
+/* section7 */
+.heading5 {
+    text-align: center;
+
+}
+
+.heading5 h1 {
+    font-size: 40px;
+    color: #C79C60;
+}
+
+.mainimage {
+    height: 1000px;
+    
+    width: 100%;
+    border: 1px solid white;
+
+}
+
+.img16 {
+    padding: 20px;
+    margin-top: 40px;
+    background-image: url(images/event-gallery-1-4-3-500x500.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    /* Relative position for absolute positioning inside */
+}
+
+.img16::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    border: 5px solid white;
+    transform: translate(-50%, -50%);
+}
+
+/* H1 ko white border ke top center me lane ke liye */
+.img16 .border-box {
+    position: absolute;
+    top: 10%;
+    /* White border ke top center me */
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(0, 0, 0, 0.6);
+    /* Black transparent background */
+    /* padding: 10px 20px; */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    /* border-radius: 5px; */
+}
+
+.img16 img {
+    width: 100%;
+}
+
+.img17 {
+    padding: 20px;
+    margin-top: 40px;
+    background-image: url(images/event3guitar-1-500x500.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+
+    /* Relative position for absolute positioning inside */
+}
+
+.img17::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    border: 5px solid white;
+    transform: translate(-50%, -50%);
+}
+
+/* H1 ko white border ke top center me lane ke liye */
+.img17 .border-box {
+    position: absolute;
+    top: 10%;
+    /* White border ke top center me */
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(0, 0, 0, 0.6);
+    /* Black transparent background */
+    /* padding: 10px 20px; */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    /* border-radius: 5px; */
+}
+
+.img18 img {
+    width: 100%;
+}
+
+.img18 {
+    padding: 20px;
+    margin-top: 40px;
+    background-image: url(images/event-3-500x500.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+
+    /* Relative position for absolute positioning inside */
+}
+
+.img18::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    border: 5px solid white;
+    transform: translate(-50%, -50%);
+}
+
+/* H1 ko white border ke top center me lane ke liye */
+.img18 .border-box {
+    position: absolute;
+    top: 10%;
+    /* White border ke top center me */
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(0, 0, 0, 0.6);
+    /* Black transparent background */
+    /* padding: 10px 20px; */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    /* border-radius: 5px; */
+}
+
+.img18 img {
+    width: 100%;
+}
+
+#demo {
+
+    margin-top: 100px;
+    height: 200px;
+
+}
+
+.heading11 {
+    color: #C79C60;
+    text-align: center;
+    font-size: 50px;
+}
+
+.heading12 {
+    color: #0a0a0a;
+    text-align: center;
+    font-size: 24px;
+}
+
+.section10 {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    /* justify-content: center; */
+    justify-items: center;
+
+}
+
+.img20 {
+    width: 100%;
+    height: 600px;
+    background-color: #fbfbfa;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    /* Shadow effect */
+    border-radius: 10px;
+    /* Optional: thoda smooth look ke liye */
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    padding: 11px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+p {
+    margin-bottom: 70px;
+}
+
+.button:hover {
+    background-color: #f9f9f9d0;
+}
+
+.button {
+    padding: 20px;
+    color: white;
+    background-color: #C79C60;
+
+}
+
+.img20 img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.mainfooter {
+    background-color: #F5F5F5;
+
+    width: 100%;
+}
+
+.footer1 {
+    margin-top: 40px;
+    text-align: center;
+    padding: 40px;
+}
+
+.f2 {
+    margin-top: 30px;
+}
+
+.icon22 {
+    margin-top: 50px;
+    color: orange;
+}
+
+.icon22:hover {
+
+    color: black;
+}
+
+.footer2 {
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+
+.f4 {
+    margin-top: 30px;
+
+}
+
+.f4 h1 {
+    color: #C79C60;
+}
+
+.footer3 {
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.footer3 h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.f5 {
+    margin-top: 40px;
+}
+
+.f6 {
+    margin-top: 40px;
+}
+
+
+@media only screen and (min-width:768px) {
+
+    header {
+        background-color: white;
+        width: 100%;
+        height: 60px;
+
+
+    }
+
+    .navbar {
+
+
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0px 20px;
+
+    }
+
+    i {
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+
+    .main {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        background-image: url(images/bg-parallax1new.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        place-items: center;
+        /* Short-hand for centering */
+        text-align: center;
+    }
+
+    .main::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        /* 0.5 ka matlab 50% dark effect */
+        z-index: 1;
+
+    }
+
+    .main>* {
+        position: relative;
+        z-index: 2;
+    }
+
+    .mainhead {
+
+        font-family: "Cedarville Cursive", serif;
+        font-weight: 400;
+        font-style: normal;
+        /* h1 and p font stales*/
+        color: white;
+    }
+
+    .mainhead {
+        padding: 10px;
+        /* h1 and p size*/
+        font-size: 35px;
+    }
+
+    .h11 {
+        color: rgb(253, 252, 252);
+        font-size: 20px;
+    }
+
+    .countainer {
+        width: 100%;
+        /* justify-content: center; */
+        justify-items: center;
+        /* display: flex; */
+        padding: 10px;
+
+    }
+
+    .box {
+        padding: 10px;
+        color: white;
+        margin-top: 50px;
+        width: 80%;
+        height: 60px;
+        background-color: #C79C60;
+        /* Flexbox enable kiya */
+        justify-content: center;
+        /* Horizontally center */
+        align-items: center;
+        /* Vertically center */
+        text-align: center;
+    }
+
+    /* heading 2 */
+
+
+    /* heading 2 */
+
+    .mainhead2 {
+        margin-top: 50px;
+        font-family: "Cedarville Cursive", serif;
+        font-weight: 400;
+        font-style: normal;
+        /* h1 and p font stales*/
+        color: #C79C60;
+        text-align: center;
+        font-size: 80px;
+
+    }
+
+    .intro {
+        font-size: 25px;
+    }
+
+
+
+
+
+
+    .section2 {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        /* justify-content: center; */
+        justify-items: center;
+        justify-content: space-evenly;
+
+
+    }
+
+    .img1 {
+        width: 48%;
+        height: 650px;
+        background-color: #fbfbfa;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        /* Shadow effect */
+        border-radius: 10px;
+        /* display: flex; */
+        /* justify-content: center; */
+        padding: 11px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+
+    }
+
+    p {
+        margin-bottom: 70px;
+    }
+
+    .button:hover {
+        background-color: #c79c60d0;
+    }
+
+    .button {
+        color: white;
+        background-color: #C79C60;
+
+        padding: 20px;
+
+    }
+
+    .img1 img {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .section3 {
+        /* margin-top: 20px; */
+        width: 100%;
+        height: 600px;
+        position: relative;
+        /* display: flex; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        /* Text ko bright rakhne ke liye */
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .images8 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .img01 {
+        margin-top: 10px;
+        width: 47%;
+        height: 500px;
+        background-image: url(images/freewifi-560x840.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img01 div {
+        height: 100px;
+        color: white;
+        /* Text color white hi rahega */
+        text-align: center;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Black color with 60% transparency */
+    }
+
+    .img01 div h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #C79C60;
+    }
+
+    .img02 {
+        margin-top: 10px;
+        width: 47%;
+        height: 500px;
+        background-image: url(images/n3a_new-560x840.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img02 div {
+        height: 100px;
+        color: white;
+        /* Text color white hi rahega */
+        text-align: center;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Black color with 60% transparency */
+    }
+
+    .img02 div h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #C79C60;
+    }
+
+
+    .img03 {
+        margin-top: 10px;
+        width: 47%;
+        height: 500px;
+        background-image: url(images/glr-5-560x840.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img03 div {
+        height: 100px;
+        color: white;
+        /* Text color white hi rahega */
+        text-align: center;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Black color with 60% transparency */
+    }
+
+    .img03 div h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #C79C60;
+    }
+
+    .booking {
+        margin-top: 20px;
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 100%;
+        height: 600px;
+        background-image: url(images/booking-parallax.jpg);
+        background-attachment: fixed;
+    }
+
+    .reservation {
+        padding: 50px;
+        text-align: center;
+        color: white;
+    }
+
+    .reservation h1 {
+        color: #C79C60;
+    }
+
+    .logo1 {
+        text-align: center;
+    }
+
+    .form1 {
+        margin-left: 17px;
+        padding: 20px;
+        width: 90%;
+        border: 1px solid white;
+        color: white;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input,
+    select {
+        background-color: white;
+        color: black;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: gray;
+    }
+
+    input,
+    select {
+        flex: 1;
+        min-width: 200px;
+    }
+
+    h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    button {
+
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        color: white;
+        background-color: #C79C60;
+    }
+
+    .mainimage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 500px;
+        width: 100%;
+        border: 1px solid white;
+        /* padding: 20px; */
+    }
+
+    .img16 {
+        padding: 20px;
+        margin-top: 40px;
+        background-image: url(images/event-gallery-1-4-3-500x500.jpg);
+        width: 47%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        /* Relative position for absolute positioning inside */
+    }
+
+    .img16::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+        border: 5px solid white;
+        transform: translate(-50%, -50%);
+    }
+
+    /* H1 ko white border ke top center me lane ke liye */
+    .img16 .border-box {
+        position: absolute;
+        top: 10%;
+        /* White border ke top center me */
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: rgba(0, 0, 0, 0.6);
+        /* Black transparent background */
+        /* padding: 10px 20px; */
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+    }
+
+    .img16 img {
+        width: 100%;
+    }
+
+    .img17 {
+        padding: 20px;
+        margin-top: 40px;
+        background-image: url(images/event3guitar-1-500x500.jpg);
+        width: 47%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        /* Relative position for absolute positioning inside */
+    }
+
+    .img17::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+        border: 5px solid white;
+        transform: translate(-50%, -50%);
+    }
+
+    /* H1 ko white border ke top center me lane ke liye */
+    .img17 .border-box {
+        position: absolute;
+        top: 10%;
+        /* White border ke top center me */
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: rgba(0, 0, 0, 0.6);
+        /* Black transparent background */
+        /* padding: 10px 20px; */
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+    }
+
+    .img18 img {
+        width: 100%;
+    }
+
+    .img18 {
+        padding: 20px;
+        margin-top: 40px;
+        background-image: url(images/event-3-500x500.jpg);
+        width: 47%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        /* Relative position for absolute positioning inside */
+    }
+
+    .img18::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+        border: 5px solid white;
+        transform: translate(-50%, -50%);
+    }
+
+    /* H1 ko white border ke top center me lane ke liye */
+    .img18 .border-box {
+        position: absolute;
+        top: 10%;
+        /* White border ke top center me */
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: rgba(0, 0, 0, 0.6);
+        /* Black transparent background */
+        /* padding: 10px 20px; */
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+    }
+
+    .img18 img {
+        width: 100%;
+    }
+
+    .section10 {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        /* justify-content: center; */
+        justify-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .img20 {
+        width: 47%;
+        height: 600px;
+        background-color: #fbfbfa;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        /* Shadow effect */
+        border-radius: 10px;
+        /* Optional: thoda smooth look ke liye */
+        /* display: flex; */
+        justify-content: center;
+        /* align-items: center; */
+        padding: 11px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+
+    }
+
+    p {
+        margin-bottom: 70px;
+    }
+
+    .button:hover {
+        background-color: #f9f9f9d0;
+    }
+
+    .button {
+        padding: 20px;
+        color: white;
+        background-color: #C79C60;
+
+    }
+
+    .img20 img {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .mainfooter {
+        background-color: #F5F5F5;
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer1 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: center;
+        padding: 40px;
+        text-align: start;
+    }
+
+    .footer1 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f2 {
+        margin-top: 30px;
+    }
+
+    .icon22 {
+        margin-top: 50px;
+        color: orange;
+    }
+
+    .icon22:hover {
+
+        color: black;
+    }
+
+    .footer2 {
+        width: 30%;
+        margin-top: 100px;
+        text-align: center;
+
+    }
+
+    .footer2 img {
+        width: 80%;
+        height: auto;
+
+    }
+
+    .f4 {
+        margin-top: 30px;
+
+    }
+
+    .f4 h1 {
+        color: #C79C60;
+        font-size: 50px;
+    }
+
+    .footer3 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: end;
+
+    }
+
+    .footer3 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f5 {
+        margin-top: 40px;
+    }
+
+    .f6 {
+        margin-top: 40px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:1200px) {
+    header {
+        background-color: rgb(255, 251, 251);
+        width: 100%;
+        height: 100px;
+        color:black;
+        align-items: center;
+
+    }
+
+    .navbar {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        background-color: white;
+        font-size: 15px;
+        position: fixed;
+        z-index: 2;
+        z-index: 99;
+        top: 0;
+
+    }
+
+    .imgmobile {
+        display: none;
+    }
+
+    #removeicon {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        justify-content: space-evenly;
+        padding: 10px;
+
+        color: black;
+    }
+
+    a:hover {
+        color: #C79C60;
+    }
+
+    .dis {
+        display: block;
+    }
+
+    .logolap {
+        display: flex;
+        margin-left: 150px;
+    }
+
+
+    i {
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+
+    .main {
+        margin-top: 50px;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        background-image: url(images/bg-parallax1new.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        place-items: center;
+        /* Short-hand for centering */
+        text-align: center;
+        /* z-index: 1; */
+    }
+
+    .main::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        /* 0.5 ka matlab 50% dark effect */
+        z-index: 1;
+
+    }
+
+    .main>* {
+        position: relative;
+        z-index: 2;
+    }
+
+    .mainhead {
+        /* margin-top: 50px; */
+
+        font-family: "Cedarville Cursive", serif;
+        font-weight: 400;
+        font-style: normal;
+        /* h1 and p font stales*/
+        color: white;
+    }
+
+    .mainhead {
+        padding: 10px;
+        /* h1 and p size*/
+        font-size: 35px;
+    }
+
+    .h11 {
+        color: rgb(253, 252, 252);
+        font-size: 20px;
+    }
+
+    .countainer {
+        width: 100%;
+        /* justify-content: center; */
+        justify-items: center;
+        display: flex;
+        padding: 10px;
+        justify-content: space-evenly;
+
+    }
+
+    .box {
+        padding: 10px;
+        color: white;
+        margin-top: 50px;
+        width: 27%;
+        height: 60px;
+        background-color: #C79C60;
+       
+        justify-content: center;
+      
+        align-items: center;
+      
+        text-align: center;
+    }
+
+    /* heading 2 */
+
+
+   
+
+    .mainhead2 {
+        margin-top: 50px;
+        font-family: "Cedarville Cursive", serif;
+        font-weight: 400;
+        font-style: normal;
+   
+        color: #C79C60;
+        text-align: center;
+        font-size: 80px;
+
+    }
+
+    .intro {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .mainhead3 {
+        margin-left: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .section2 {
+        background-color: white;
+        height: 700px;
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        padding: 30px;
+        /* justify-content: center; */
+        justify-items: center;
+        /* z-index: 1; */
+
+    }
+
+    .img1 {
+        width: 27%;
+        height: 600px;
+        background-color: #fbfbfa;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        /* Shadow effect */
+        border-radius: 10px;
+        /* Optional: thoda smooth look ke liye */
+        /* display: flex; */
+        justify-content: center;
+        /* align-items: center; */
+        padding: 11px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+
+    }
+
+    p {
+        margin-bottom: 40px;
+    }
+
+    .button:hover {
+        background-color: #c79c60d0;
+    }
+
+    .button {
+        padding: 20px;
+        color: white;
+        background-color: #C79C60;
+
+    }
+
+    .img1 img {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .section3 {
+        /* margin-top: 20px; */
+        width: 100%;
+        height: 600px;
+        position: relative;
+        /* display: flex; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        /* Text ko bright rakhne ke liye */
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        /* background-attachment: fixed; */
+
+    }
+
+    .ps {
+        font-size: 30px;
+    }
+
+    .notes {
+        margin-top: 30px;
+        padding: 10px;
+        text-align: center;
+        text-size-adjust: 200px;
+
+    }
+
+    .images8 {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* background-attachment: scroll; */
+    }
+
+    .img01 {
+        margin-top: 10px;
+        width: 30%;
+        height: 500px;
+        background-image: url(images/freewifi-560x840.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img01 div {
+        height: 100px;
+        color: white;
+        /* Text color white hi rahega */
+        text-align: center;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Black color with 60% transparency */
+    }
+
+    .img01 div h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #C79C60;
+    }
+
+    .img02 {
+        margin-top: 10px;
+        width: 30%;
+        height: 500px;
+        background-image: url(images/n3a_new-560x840.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img02 div {
+        height: 100px;
+        color: white;
+        /* Text color white hi rahega */
+        text-align: center;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Black color with 60% transparency */
+    }
+
+    .img02 div h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #C79C60;
+    }
+
+
+    .img03 {
+        margin-top: 10px;
+        width: 30%;
+        height: 500px;
+        background-image: url(images/glr-5-560x840.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img03 div {
+        height: 100px;
+        color: white;
+        /* Text color white hi rahega */
+        text-align: center;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Black color with 60% transparency */
+    }
+
+    .img03 div h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #C79C60;
+    }
+
+
+    .booking {
+        margin-top: 20px;
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 100%;
+        height: 900px;
+        background-image: url(images/booking-parallax.jpg);
+        background-attachment: fixed;
+    }
+
+    .reservation {
+        padding: 120px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+
+    .reservation h1 {
+        color: #C79C60;
+        font-size: 20px;
+    }
+
+    .logo1 {
+        text-align: center;
+        /* margin-top: 200px; */
+        /* margin-right: 200px; */
+    }
+
+    .form1 {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 80px;
+        width: 80%;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 15px; */
+        justify-content: center;
+        max-width: 900px;
+    }
+
+    input,
+    select {
+        background-color: white;
+        color: black;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        width: calc(33.33% - 10px);
+        /* 3 inputs per row */
+    }
+
+    .row-2 input,
+    .row-2 select {
+        width: calc(50% - 10px);
+        /* 2 inputs per row */
+    }
+
+    h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    button {
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        color: white;
+        background-color: #C79C60;
+    }
+
+    .section6 {
+        height: 500px;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .heading1 {
+
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+
+
+    }
+
+    .drink {
+        width: 50%;
+        text-align: center;
+    }
+
+    .drink img {
+        width: 97%;
+    }
+
+    .timewatch {
+
+        padding: 20px;
+        text-align: center;
+        width: 50%;
+        height: 316px;
+        color: white;
+        background-color: rgb(5, 2, 2);
+    }
+
+    .mainimage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 500px;
+        width: 100%;
+        border: 1px solid white;
+        /* padding: 20px; */
+    }
+
+    .img16 {
+        padding: 20px;
+        margin-top: 40px;
+        background-image: url(images/event-gallery-1-4-3-500x500.jpg);
+        width: 31%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        /* Relative position for absolute positioning inside */
+    }
+
+    .img16::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+        border: 5px solid white;
+        transform: translate(-50%, -50%);
+    }
+
+    /* H1 ko white border ke top center me lane ke liye */
+    .img16 .border-box {
+        position: absolute;
+        top: 10%;
+        /* White border ke top center me */
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: rgba(0, 0, 0, 0.6);
+        /* Black transparent background */
+        /* padding: 10px 20px; */
+        color: white;
+
+        font-size: 24px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+    }
+
+    .img16 img {
+        width: 100%;
+    }
+
+    .img17 {
+        padding: 20px;
+        margin-top: 40px;
+        background-image: url(images/event3guitar-1-500x500.jpg);
+        width: 31%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        /* Relative position for absolute positioning inside */
+    }
+
+    .img17::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+        border: 5px solid white;
+        transform: translate(-50%, -50%);
+    }
+
+    /* H1 ko white border ke top center me lane ke liye */
+    .img17 .border-box {
+        position: absolute;
+        top: 10%;
+        /* White border ke top center me */
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: rgba(0, 0, 0, 0.6);
+        /* Black transparent background */
+        /* padding: 10px 20px; */
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+    }
+
+    .img18 img {
+        width: 100%;
+    }
+
+    .img18 {
+        padding: 20px;
+        margin-top: 40px;
+        background-image: url(images/event-3-500x500.jpg);
+        width: 31%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        /* Relative position for absolute positioning inside */
+    }
+
+    .img18::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+        border: 5px solid white;
+        transform: translate(-50%, -50%);
+    }
+
+    /* H1 ko white border ke top center me lane ke liye */
+    .img18 .border-box {
+        position: absolute;
+        top: 10%;
+        /* White border ke top center me */
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: rgba(0, 0, 0, 0.6);
+        /* Black transparent background */
+        /* padding: 10px 20px; */
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+    }
+
+    .img18 img {
+        width: 100%;
+    }
+
+    .section10 {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        /* justify-content: center; */
+        justify-items: center;
+
+    }
+
+    .img20 {
+        width: 31%;
+        height: 700px;
+        background-color: #fbfbfa;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        /* Shadow effect */
+        border-radius: 10px;
+        /* Optional: thoda smooth look ke liye */
+        /* display: flex; */
+        justify-content: center;
+        /* align-items: center; */
+        padding: 11px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+
+    }
+
+    p {
+        margin-bottom: 70px;
+    }
+
+    .button:hover {
+        background-color: #f9f9f9d0;
+    }
+
+    .button {
+        padding: 20px;
+        color: white;
+        background-color: #C79C60;
+
+    }
+
+    .img20 img {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .mainfooter {
+        margin-top: 70px;
+background-color: #F5F5F5;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer1 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: center;
+        padding: 40px;
+        text-align: start;
+    }
+
+    .footer1 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f2 {
+        margin-top: 30px;
+    }
+
+    .icon22 {
+        margin-top: 50px;
+        color: orange;
+    }
+
+    .icon22:hover {
+
+        color: black;
+    }
+
+    .footer2 {
+        width: 30%;
+        margin-top: 100px;
+        text-align: center;
+
+    }
+
+    .footer2 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .f4 {
+        margin-top: 30px;
+
+    }
+
+    .f4 h1 {
+        color: #C79C60;
+        font-size: 50px;
+    }
+
+    .footer3 {
+        width: 30%;
+        margin-top: 40px;
+        text-align: end;
+
+    }
+
+    .footer3 h4 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .f5 {
+        margin-top: 40px;
+    }
+
+    .f6 {
+        margin-top: 40px;
+    }
+
+
+}
